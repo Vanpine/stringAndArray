@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1.slice:字符串和数组截取方法
+        const str = "hello Word";
+        const arry = ["1", "2", "3", "4"]
+        const new_arrt = arry.slice(1, 3)//["2","3"]
+        console.log(new_arrt);
+        const slice_str = str.slice(6, 11)//[6,11)前面是包含6后面是不包含11，也就是只能截取到10位索引
+        console.log(slice_str);//Word
+    </script>
+
+</body>
+
+</html>

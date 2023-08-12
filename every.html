@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // every数组方法用于返回布尔值，必须数组中全部元素满足条件才给true,否则为false
+        const arr = [1, 2, 4, 6, 8, 10]
+        const new_arr = arr.every(item => {
+            return item % 2 === 0
+        })
+        console.log(new_arr);//false
+    </script>
+</body>
+
+</html>

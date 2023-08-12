@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // splice会直接修改原数组，可以进行删除，添加，替换操作
+
+        // 进行删除元素
+        const arr = ["wb", "hello", "Word", "Welcome"]
+        arr.splice(1, 2)//["wb","Welcome"]
+        
+        // 进行替换元素
+        const arr_01 = ["wb", "hello", "Word", "Welcome"]
+        const ByDeleteArr = arr_01.splice(1, 2, "hao", "shuai")//["hao","shuai"]
+        console.log(arr_01);//["wb","hao","shuai","Welcome"]
+
+        // 进行添加元素
+        const arr_02 = [1, 4, 5]
+        arr_02.splice(1, 0, 2, 3)
+        console.log(arr_02);
+
+    </script>
+</body>
+
+</html>

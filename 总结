@@ -1,0 +1,22 @@
+字符串的方法常见 
+1.toString() 将数据类型转化为字符串
+2.toUpperCase() 将所有字符串转化大写
+3.toLowerCase() 将所有字符串转化为小写
+4.substring() 类似于slice截取字符串【第一个参数,第二个参数)
+5.split() 将字符串分隔符的形式转化为数组
+
+数组常见方法
+1.forEach()
+2.map()
+3.filter()
+4.some()
+5.every()
+6.splice() 对数组进行 增，删，改
+7.includes() 判断数组是否包含该元素并且返回布尔值
+8.reduce() 高级操作,详情看html文件
+9.join() 将数组转化为字符串
+
+字符串和数组共用的方法
+1.concat()
+2.indexOf()
+3.slice()

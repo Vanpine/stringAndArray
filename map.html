@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // map会返回一个元素，进入指定数组，不更改原数组，还可以用于计算
+        const arr = [{
+            name: 'wb',
+            img: 'http:124.ijsd/qq.com'
+        }, {
+            userName: 'wh',
+            img: 'https://github.com'
+        }, {
+            String: 'qweqw',
+            img: 'asdjoasdjoajdasojd'
+        }]
+        const new_arr = arr.map(item => {
+            return item.img
+        })
+        console.log(new_arr);["http:124.ijsd/qq.com", "https://github.com", "asdjoasdjoajdasojd"]
+    </script>
+</body>
+
+</html>

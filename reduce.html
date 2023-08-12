@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // reduce有2个参数第一个为上一次的结果值，item为每一项的元素值，0为prev的初始值
+        const arr = [1, 2, 3, 4, 5, 6]
+        const sum = arr.reduce((prev, item) => {
+            return prev + item
+        }, 0)
+        console.log(sum);
+    </script>
+</body>
+
+</html>
